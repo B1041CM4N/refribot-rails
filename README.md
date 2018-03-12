@@ -1,24 +1,38 @@
-# README
+# Léeme RefriBot BackEnd (RoR)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Proyecto RefriBot
 
-Things you may want to cover:
+Descripción
 
-* Ruby version
+El proyecto RefriBot es:
 
-* System dependencies
 
-* Configuration
+[ ] Un gestor de productos.
+[ ] Indice de fechas de vencimiento por producto (código de barras).
+[ ] Sistema que proveerá estadísticas de consumo al usuario.
+[ ] Sistema que dará aviso al usuario ante la futura descomposición de un producto determinado.
+[ ] Existe la posibilidad de hacer un robot web para encontrar los mejores precios (onda SoloTodo) - Solo si es que existe una API o página de donde poder extraer estos datos.
 
-* Database creation
+El proyecto Refribot NO es:
 
-* Database initialization
 
-* How to run the test suite
+[ ] Un sistema de compras.
+[ ] Un sistema de ventas (Depende del enfoque que se le dé - Primeramente para uso de hogar).
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+Base del Proyecto (IDEA)
 
-* ...
+Sistema que permita a un usuario ingresar los productos de la compra mensual, junto con su fecha de vencimiento, de manera de poder avisarle en un determinado lapsus de tiempo ante la futura descomposición de un producto definido.
+
+
+Necesito
+[ ] BackEnd RoR para ingreso de datos.
+[ ] Sidekiq para procesos de alerta (Jobs programados).
+[ ] App movil o sistema de alerta “x” para móviles.
+
+Idea del proyecto por pasos
+
+
+[ ] Construcción del BackEnd RoR, para el ingreso de datos y estadísticas.
+[ ] Construcción (Evaluación e Investigación) de sistema o método de alertas para móviles.
+[ ] Investigar procesos de escaneo de códigos de barra con el fin de poder obtener más información del producto. (No se si se pueda, pero igual).
